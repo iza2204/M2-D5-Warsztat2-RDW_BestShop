@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "source":".",
+  "source": ".",
   "scripts": {
     "sass": "sass --watch scss/main.scss css/main.css",
     "bs": "browser-sync start --server --files \"*.html, css/*.css\"",
-    "start" : "npm-run-all --parallel sass  bs"
+    "start": "npm-run-all --parallel sass  bs"
   },
   "keywords": [],
   "author": "",
